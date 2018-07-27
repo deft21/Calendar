@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calendar</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class = "myhead">
+		<input type="button" value="Добавить" class="add">
+		<input type="button" value="Обновить" class="refresh">
+		<input type="text" class="find" placeholder="Событие, дата или участник">
+	</div>
+  	<div class = "month">
+	    <button type="button" id="last"><img src="10_zb3.png"></button>
+	    <input id="output" class= "text" type="text">
+	    <button type="button" id ="next"><img src="06_o9f.png"/></button>
+	    <input type="button" class = "today" value="Сегодня" onclick="today()">
+  </div>
+  <div id="calendar"></div>
+  <script type="text/javascript" src = "js/javascript.js"></script>
+</body>
+</html>

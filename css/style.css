@@ -1,0 +1,66 @@
+.myhead {
+  background-color: #E6E6E6;
+  width: auto;
+  height: 70px;
+}
+.add,.refresh {
+  width: 100px;
+  height: 30px;
+  border: 1px solid blue; 
+  background-color: blue;
+  color: white;
+  font-size:15px;
+  margin-left: 90px;
+  margin-top: 30px;
+  border-radius: 5px;
+  text-align: center;
+  text-shadow: 0 -1px 1px #777;
+  box-shadow: 0 0 0 60px rgba(0, 0, 255, 0.3) inset, .1em .1em .2em #777;
+}
+.refresh {
+  margin-left: 10px;
+}
+.find {
+  width: 200px;
+  padding: 5px;
+  position: absolute; 
+  top: 10px; 
+  right: 30px;
+  margin-top: 30px;
+  margin-right: 60px;
+}
+.month {
+  padding: 20px;
+  margin-left:90px;
+  vertical-align: middle;
+}
+.text {
+  width: 100px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.today {
+  width: 80px;
+  height: 25px;
+  font-size:15px;
+  border-radius: 5px;
+}
+img {
+  width: 16px;
+  height: 16px;
+}
+button {
+  border-radius: 5px;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+}
+
+td,th {
+  border: 1px solid #E6E6E6;
+  padding: 5px 100px 100px 5px;
+  text-align: left;
+  font-size: 13px;
+}
